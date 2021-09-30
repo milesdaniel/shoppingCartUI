@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    background: linear-gradient(to bottom right, #E3F0FF, #f0f0f0);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     height: 85%;
     background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 5px 25px #1687d933;
+    box-shadow: 10px 15px #e9e645;
 }
 
 .header {
@@ -21,33 +21,36 @@ body {
     width: 90%;
     height: 15%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
+
 .heading {
     font-size: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     color: #2F3841;
 }
 
 .action {
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
-    color: #E44C4C'
+    color: #E44C4C;
     cursor: pointer;
     border-bottom: 1px solid #E44C4C;
+    
 }
 
 .cartItems {
     margin: auto;
     width: 90%;
-    height: 30%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 10px;;
 }
 
 .imageBox {
@@ -56,7 +59,9 @@ body {
 }
 
 img {
-    height: 120px;
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
 }
 
 .about {
@@ -67,7 +72,7 @@ img {
     padding-top: 5px;
     line-height: 10px;
     font-size: 32px;
-    font-family:'Open Sans';
+    font-family:'Bebas Neue', cursive;
     font-weight: 800;
     color: #202020;
 }
@@ -75,7 +80,7 @@ img {
 .subtitle {
     line-height: 10px;
     font-size: 18px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     color: #909090;
 }
@@ -88,23 +93,23 @@ img {
 }
 
 .btn {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
-    background-color: #d9d9d9;
+    background-color: #949090;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: 'Bebas Neue', cursive;
     font-weight: 900;
     color: #202020;
-    cursor: pointer:
+    cursor: pointer;
 }
 
 .count {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: 'Bebas Neue', cursive;
     font-weight: 900;
     color: #202020;
 }
@@ -112,12 +117,13 @@ img {
 .prices {
     height: 100%;
     text-align: right;
+    padding-right: 10px;
 }
 
 .amount {
     padding-top: 20px;
     font-size: 26px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 800;
     color: #202020;
 }
@@ -125,7 +131,7 @@ img {
 .save {
     padding-top: 5px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     color: #1687d9;
     cursor: pointer;
@@ -134,7 +140,7 @@ img {
 .remove {
     padding-top: 5px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     color: #E44C4C;
     cursor: pointer;
@@ -156,18 +162,19 @@ hr {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .subtotal {
     font-size: 22px;
-    font-family: "Open Sans";
+    font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     color: #202020;
 }
 
 .items {
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Bebas Neue', cursive;
     font-weight: 500;
     color: #909090;
     line-height: 10px;
@@ -175,7 +182,7 @@ hr {
 
 .totalAmount {
     font-size: 36px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 900;
     color: #202020;
 }
@@ -185,11 +192,11 @@ hr {
     width: 100%;
     height: 40px;
     border: none;
-    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+    background: linear-gradient(to bottom right, #f0ffb8, #e9e645);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     color: #202020;
 }
